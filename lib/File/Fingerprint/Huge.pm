@@ -5,7 +5,7 @@ use Digest::CRC qw[ crc64 ];
 use strict;
 use vars qw ($VERSION);
 
-$VERSION = $1 if('$Id: Huge.pm,v 1.3 2012/02/07 18:17:42 cfaber Exp $' =~ /,v ([\d.]+) /);
+$VERSION = $1 if('$Id: Huge.pm,v 1.4 2012/02/14 16:02:36 cfaber Exp $' =~ /,v ([\d.]+) /);
 
 =head1 NAME
 

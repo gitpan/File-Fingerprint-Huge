@@ -5,6 +5,11 @@ WriteMakefile(
     'NAME'    => 'File::Fingerprint::Huge',
     'VERSION_FROM' => 'lib/File/Fingerprint/Huge.pm', # finds $VERSION 
     'dist' => { COMPRESS => "gzip", SUFFIX=>"gz" },
+    'PREREQ_PM' => {
+		'Digest::CRC'		=> '0.16',
+		'Digest::MD5'		=> '2.39',
+		'Math::Random::MT'	=> '1.10'
+    },
     ($] ge '5.005')
         ? (
             'AUTHOR' => 'Colin Faber <cfaber@gmail.com>',
